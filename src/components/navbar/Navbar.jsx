@@ -2,17 +2,17 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar bg-dark">
+    <nav className="navbar">
       <h1></h1>
       <ul>
         <li>
-          <a href="profiles.html">Developers</a>
+          <a href="#">Developers</a>
         </li>
         <li>
-          <a href="register.html">Register</a>
+          <a href="#">Register</a>
         </li>
         <li>
-          <a href="login.html">Login</a>
+          <a href="#">Login</a>
         </li>
       </ul>
     </nav>

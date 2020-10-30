@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../../../src/img/logo.png";
 export const Landing = () => {
   return (
     <section className="landing">
@@ -9,14 +9,11 @@ export const Landing = () => {
             Create a developer profile/portfolio, share posts and get help from
             other developers
           </p> */}
-          {/* <div className="buttons">
-            <a href="register.html" className="btn btn-primary">
-              Sign Up
+          <div className="buttons logo">
+            <a href="#">
+              <img src={logo} alt="img" />
             </a>
-            <a href="login.html" className="btn btn-light">
-              Login
-            </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
