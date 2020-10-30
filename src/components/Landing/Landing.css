@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mediaViewInfo {
+  --web-view-name: Web 1920 – 2;
+  --web-view-id: Web_1920__2;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Web_1920__2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+.Web_1920__2 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  --web-view-name: Web 1920 – 2;
+  --web-view-id: Web_1920__2;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+.Rectangle_5 {
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_5 {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+.Path_3_j {
+  fill: url(#Path_3_j);
+}
+.Path_3_j {
+  overflow: visible;
+  position: absolute;
+  width: 1920px;
+  height: 219.15px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.Rectangle_7 {
+  fill: rgba(229, 46, 128, 1);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_7 {
+  position: absolute;
+  overflow: visible;
+  width: 206px;
+  height: 47px;
+  left: 1447px;
+  top: 37px;
+}
+.Rectangle_6 {
+  fill: rgba(229, 46, 128, 1);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_6 {
+  position: absolute;
+  overflow: visible;
+  width: 206px;
+  height: 47px;
+  left: 1663px;
+  top: 37px;
+}
+.Log_In {
+  left: 1499px;
+  top: 44px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+.Scroll_Group_2 {
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 123px;
+  height: 33px;
+  left: 1705px;
+  top: 44px;
+  overflow: visible;
+}
+.Sign_Up {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 124px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+.Sign_Up_p {
+  left: 794px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 124px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+.rsz_daan-huttinga-v6rdg-w74um- {
+  position: absolute;
+  width: 1920px;
+  height: 970px;
+  left: 0px;
+  top: 110px;
+  overflow: visible;
+}
+.Rectangle_8 {
+  filter: blur(27px);
+  fill: rgba(227, 234, 248, 1);
+}
+.Rectangle_8 {
+  filter: drop-shadow(0px 3px 79px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 304px;
+  left: 879px;
+  top: 875px;
+}
+.right-arrow {
+  filter: drop-shadow(0px 3px 65px rgba(0, 0, 0, 0.949));
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 943px;
+  top: 891px;
+  overflow: visible;
+}
+.logo_transparent {
+  filter: drop-shadow(0px 0px 14px rgba(230, 34, 34, 0.49));
+  position: absolute;
+  width: 724px;
+  height: 724px;
+  left: 598px;
+  top: 160px;
+  overflow: visible;
+}
