@@ -7,17 +7,17 @@ export const Navbar = () => {
       <ul>
         <li>
           <div className="btn-shape">
-            <a href="#">Developers</a>
+            <a href="/developers">Developers</a>
           </div>
         </li>
         <li>
           <div className="btn-shape">
-            <a href="#">Register</a>
+            <a href="/register">Register</a>
           </div>
         </li>
         <li>
           <div className="btn-shape">
-            <a href="#">Login</a>
+            <a href="/login">Login</a>
           </div>
         </li>
       </ul>

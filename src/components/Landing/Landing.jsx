@@ -10,7 +10,7 @@ export const Landing = () => {
             other developers
           </p> */}
           <div className="buttons logo">
-            <a href="#">
+            <a href="/">
               <img className="logo-bg" src={logo} alt="img" />
             </a>
           </div>
