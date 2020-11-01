@@ -15,7 +15,7 @@ export const Landing = () => {
             </a>
           </div>
           <div>
-            <a href="#">
+            <a href="/home">
               <div className=" next-btn">Get Started Now</div>
             </a>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar-simple">
       <h1></h1>
       <ul>
         <li>

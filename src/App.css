@@ -302,7 +302,7 @@ button {
 }
 
 /* Navbar */
-.navbar {
+.navbar-simple {
   display: flex;
   justify-content: space-between;
   align-self: center;
@@ -315,7 +315,7 @@ button {
   opacity: 0.9;
 }
 
-.navbar ul {
+.navbar-simple ul {
   display: flex;
 }
 .btn-shape {
@@ -351,18 +351,18 @@ button {
   margin: 8px 8px;
 }
 
-.navbar a {
+.navbar-simple a {
   color: #fff;
   padding: 0.45rem;
   margin: 0 0.25rem;
   font-size: 1.5rem;
 }
 
-.navbar a:hover {
+.navbar-simple a:hover {
   color: var(--nav1-color);
 }
 
-.navbar .welcome span {
+.navbar-simple .welcome span {
   margin-right: 0.6rem;
 }
 /* Landing Page */
