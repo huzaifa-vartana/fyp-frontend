@@ -6,13 +6,19 @@ export const Navbar = () => {
       <h1></h1>
       <ul>
         <li>
-          <a href="#">Developers</a>
+          <div className="btn-shape">
+            <a href="#">Developers</a>
+          </div>
         </li>
         <li>
-          <a href="#">Register</a>
+          <div className="btn-shape">
+            <a href="#">Register</a>
+          </div>
         </li>
         <li>
-          <a href="#">Login</a>
+          <div className="btn-shape">
+            <a href="#">Login</a>
+          </div>
         </li>
       </ul>
     </nav>

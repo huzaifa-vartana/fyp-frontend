@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../src/img/logo.png";
+import logo from "../../img/logo.png";
 export const Landing = () => {
   return (
     <section className="landing">
@@ -11,7 +11,7 @@ export const Landing = () => {
           </p> */}
           <div className="buttons logo">
             <a href="#">
-              <img src={logo} alt="img" />
+              <img className="logo-bg" src={logo} alt="img" />
             </a>
           </div>
         </div>
