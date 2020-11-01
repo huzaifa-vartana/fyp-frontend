@@ -14,6 +14,11 @@ export const Landing = () => {
               <img className="logo-bg" src={logo} alt="img" />
             </a>
           </div>
+          <div>
+            <a href="#">
+              <div className=" next-btn">Get Started Now</div>
+            </a>
+          </div>
         </div>
       </div>
     </section>

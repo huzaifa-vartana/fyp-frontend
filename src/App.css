@@ -326,6 +326,23 @@ button {
 
   /* border-radius: 60px; */
 }
+new.next-btn {
+  font-size: 1.6rem;
+  /* background-color: #65b2a6; */
+  color: black;
+  margin-top: 80px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(205, 241, 236, 1) 100%
+  );
+  padding: 15px;
+  font-family: "Mukta", sans-serif;
+
+  border-radius: 55px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap");
 .dev-style {
   border: 2px solid var(--main-color);
   margin: 8px 8px;
@@ -350,22 +367,13 @@ button {
   position: relative;
   background: url("./img/bg_blur.jpg") no-repeat center center/cover;
   height: 100vh;
-  /* height: 100%; */
-  /* Add the blur effect */
-  z-index: -1;
 }
 .logo-bg {
   height: 450px;
   width: 450px;
   margin-top: 6rem;
   position: relative;
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   z-index: 3;
-
-  filter: blur(0);
-  -webkit-filter: blur(0);
 }
 .landing-inner {
   color: #fff;
