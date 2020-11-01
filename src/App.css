@@ -326,7 +326,7 @@ button {
 
   /* border-radius: 60px; */
 }
-new.next-btn {
+.next-btn {
   font-size: 1.6rem;
   /* background-color: #65b2a6; */
   color: black;
@@ -339,6 +339,9 @@ new.next-btn {
   );
   padding: 15px;
   font-family: "Mukta", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 
   border-radius: 55px;
 }
