@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# How to run this:
 
-In the project directory, you can run:
+
 ###  First clone the Repo
 
 ### `npm install`
