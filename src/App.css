@@ -238,13 +238,13 @@ img {
 } */
 
 /* Forms */
-.form .form-group {
+/* .form .form-group {
   margin: 1.2rem 0;
-}
+} */
 
 .form .form-text {
   display: block;
-  margin-top: 0.3rem;
+  /* margin-top: 0.3rem; */
   color: #888;
 }
 
@@ -377,6 +377,9 @@ button {
   margin-top: 6rem;
   position: relative;
   z-index: 3;
+}
+.next-btn a:hover {
+  text-decoration: none;
 }
 .landing-inner {
   color: #fff;

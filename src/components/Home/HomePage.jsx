@@ -5,8 +5,8 @@ export const HomePage = () => {
   return (
     <React.Fragment>
       <Navbar></Navbar>
-      <section className="container">
-        <div>
+      <section>
+        <div className="container">
           <h1>Main Info</h1>
         </div>
       </section>

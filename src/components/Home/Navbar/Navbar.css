@@ -8,6 +8,7 @@
   --main-color: #e52e80;
   --nav1-color: #65b2a6;
   --nav2-color: #c4e3de;
+  --sea-green: #40a798;
 }
 
 .new-navbar {
@@ -21,11 +22,11 @@
   top: 0;
   /* border-bottom: solid 1px var(--primary-color); */
   opacity: 0.9;
-  background: rgb(255, 255, 255);
+  background: rgb(200, 240, 234);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(205, 241, 236, 1) 100%
+    rgba(200, 240, 234, 1) 2%,
+    rgba(64, 167, 152, 1) 89%
   );
 }
 
@@ -39,6 +40,9 @@
   margin: 8px;
 
   /* border-radius: 60px; */
+}
+.next-btn :hover {
+  text-decoration: none;
 }
 .next-btn {
   font-size: 1.6rem;
@@ -68,7 +72,7 @@
 .new-navbar a {
   color: rgb(0, 0, 0);
   padding: 0.45rem;
-  font-family: "Mukta", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0 0.25rem;
   font-size: 1.5rem;
 }

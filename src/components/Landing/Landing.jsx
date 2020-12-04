@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../img/logo.png";
+import "./Landing.css";
 export const Landing = () => {
   return (
     <section className="landing">
@@ -14,8 +15,8 @@ export const Landing = () => {
               <img className="logo-bg" src={logo} alt="img" />
             </a>
           </div>
-          <div>
-            <a href="/home">
+          <div className="next-btn-div">
+            <a className="next-btn-a" href="/home">
               <div className=" next-btn">Get Started Now</div>
             </a>
           </div>
