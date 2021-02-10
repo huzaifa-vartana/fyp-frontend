@@ -10,14 +10,10 @@ export const Navbar = () => {
             <a href="/developers">Developers</a>
           </div>
         </li>
+
         <li>
           <div className="btn-shape">
-            <a href="/register">Register</a>
-          </div>
-        </li>
-        <li>
-          <div className="btn-shape">
-            <a href="/login">Login</a>
+            <a href="/login">User OnBoarding</a>
           </div>
         </li>
       </ul>
